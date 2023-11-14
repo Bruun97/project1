@@ -215,5 +215,4 @@ class SimpleKivyApp(MDApp):
                     
                     self.root.ids[f"nav_icon{i+1}"].text_color = 0,0,0,1
 
-if __name__ == '__main__':
-    SimpleKivyApp().run()
+SimpleKivyApp().run()
