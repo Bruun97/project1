@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Strikke app
+title = Strikke ny app
 
 # (str) Package name
-package.name = myapp
+package.name = MyApp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = com.test
@@ -13,7 +13,7 @@ package.domain = com.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,spec
+source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
