@@ -202,7 +202,7 @@ class NavBar(CommonElevationBehavior,MDFloatLayout):
     pass
 
 
-class SimpleKivyApp(MDApp):
+class MyApp(MDApp):
     def build(self):
         return Builder.load_string(kv)
     
@@ -216,5 +216,4 @@ class SimpleKivyApp(MDApp):
                     
                     self.root.ids[f"nav_icon{i+1}"].text_color = 0,0,0,1
 
-if __name__ == '__main__':
-    SimpleKivyApp().run()
+MyApp().run()
